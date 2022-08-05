@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Cryprocurrency Tracker
+## Description: 
+A cryptocurrency app that keeps you updated with the latest news and information about crytopcurrencies.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live Demo
+ Click [Here](https://tonie-crypto-app.netlify.app/) to display the live demo of this Application
 
-## Available Scripts
+## Technology Stack and Resources
+* React JS
+* Antd design libary
+* Reduxtoolkit and RTKQuery (for state Management)
+* Coin Ranking Api from Rapid Api Hub (for crytocurrency details)
+* Bing News Search Api from Rapid Api Hub (for cryptocurrency news)
 
-In the project directory, you can run:
+## Features
+* A home page that displays the Top 10 Cryptocurrencies in the world by market cap and also displays the Top 10 crypto currency news.
+* A news page that displays over 50 Cryptocurrency news and it also constains a search bar that can be used to filter out news based on a specific query.
+* A cryptocurrency page that displays the top 100 cryptocurrencies along side it's details in the world and it also contains a search bar to filter the cryptocurrencies.
+* A cryptodetails page that displays the individual details of a selected crytocurrency. It shows details like the history of a currency, the market cap and other details that are specific to that currency.
 
-### `npm start`
+## Purpose
+I was able to practicalize working with Reactjs and Redux on this project. I also took a deep dive into API and it's methods in ReactJS.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Setup 
+1. Copy the Repository link
+2. On your command line/terminal, change the current working directory to the location where you want to clone the repository
+3. Clone the repository on your terminal by typing ``` git clone ``` and then providing the link to this repository you copied earlier.
+4. Run ``` npm install ``` on your terminal to install the necessary dependencies
+5. Make sure to include your own unique API details.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Requirements
+* An IDE (VSCode, Bracket, Sublime, Atom etc)
+* Basic knowledge of ReactJs and Redux toolkit
+* Basic knowledge in fetching and displaying data from a remote API
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
