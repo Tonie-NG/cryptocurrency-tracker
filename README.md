@@ -33,3 +33,4 @@ I was able to practicalize working with Reactjs and Redux on this project. I als
 * Basic knowledge of ReactJs and Redux toolkit
 * Basic knowledge in fetching and displaying data from a remote API
 
+
