@@ -1,4 +1,4 @@
-# Cryprocurrency Tracker
+# Cryptocurrency Tracker
 ## Description: 
 A cryptocurrency app that keeps you updated with the latest news and information about crytopcurrencies.
 
